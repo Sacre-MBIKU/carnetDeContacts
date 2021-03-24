@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carnet de contacts</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <div class="containerSite" id="containerSite1">
+
+
+        <aside class="aside1">
+            
+            <div class="logo">
+                <img src="address-book-solid(1).svg" alt="logo">
+            </div>
+
+            <div class="titreSite">
+                <h1>Carnet de contacts</h1>
+            </div>
+
+            <div class="buttonListeOfContacts">
+                <button  id="btnListeOfContacts">Liste de contacts ?<span>cliquer ici!</span></button>
+            </div>
+        </aside>
+
+        <main class="main1">
+
+            
+            
+
+            <form action="" id="form" enctype="multipart/form-data" >
+
+                <div class="titreAjoutContact">
+                    <h2>Ajouter un contact</h2>
+                </div>
+
+    
+                <input class="classFormWidthHeight"  type="text" name="prename" id="prenames" placeholder="prénom">
+        
+                <input class="classFormWidthHeight"  type="text" name="names" id="names"  placeholder="nom">
+        
+                <select  class="classFormWidthHeight" name="group" id="group">
+                    <option value="value1">&escr;</option>
+                    <option value="value2">valeur 2</option>
+                    <option value="value3"></option>
+                    <option value="value4"></option>
+                    <option value="value5"></option>
+                </select>
+        
+                <textarea class="classFormWidthHeight"  name="biographie" id="biographie" cols="30" rows="3" placeholder="biographie"></textarea>
+        
+                <div class="imageInput classFormWidthHeight">
+                    <input type="file" name="image" id="image">
+                    <label for="image" id="imageLabel"><img src="user-plus-solid.svg" alt=""></label>
+                </div>
+        
+                <div class="classFormWidthHeight buttonsForm">
+                    <button type="submit" id="btnAjoutContact" class="buttonFormIndex">Ajouter contact</button>
+                    <button type="reset" class="buttonFormIndex">Réinitialiser</button>
+                </div>
+            
+            </form>
+        
+        </main>
+
+    </div>
+
+    <div class="containerSite2" id="containerSite2">
+
+
+        <aside class="aside2">
+            <div class="logo">
+                <img src="address-book-solid.svg" alt="logo">
+            </div>
+
+            <div class="titreSite">
+                <h1>Carnet de contacts</h1>
+            </div>
+
+            <div class="buttonAjoutOfContacts">
+                <button  id="btnAjoutOfContact">Ajouter un contact?<span>cliquer ici!</span></button>
+            </div>
+        </aside>
+
+        <main class="main2">
+            
+
+            <section id="listeOfContacts">
+               
+            </section>
+        
+        </main>
+
+    </div>
+
+    
+    
+
+    <script src="index.js"></script>
+    <script src="index2.js"></script>
+</body>
+</html>

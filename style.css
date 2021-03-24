@@ -1,0 +1,197 @@
+@font-face{
+    font-family: "MontserratBold";
+    src: url("./Montserrat/Montserrat-Bold.ttf");
+}
+
+@font-face{
+    font-family: "MontserraMediumItalic";
+    src: url("./Montserrat/Montserrat-MediumItalic.ttf");
+}
+
+font-face{
+    font-family: "MontserraRegular";
+    src: url("./Montserrat/Montserrat-Regular.ttf");
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    
+    overflow: hidden;
+    background-color: #ffffff;
+    width: 100vw;
+    height: 100vh;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+button{
+    border-style: none;
+    
+}
+
+input{
+    border-style: none;
+    appearance: none;
+    background-color: transparent;
+    border-bottom: #fff .5px solid;
+    opacity: 1;
+}
+
+select{
+    border-style: none;
+    appearance: none;
+    background-color: transparent;
+    border-bottom: #fff .5px solid;
+    -webkit-appearance: none;
+    background-image: url("chevron-down-solid.svg");
+    background-size: 3.8%;
+    padding: 2%;
+    background-repeat: no-repeat;
+    background-position: 98%;
+}
+
+
+textarea{
+    border-style: none;
+    appearance: none;
+    background-color: transparent;
+    border-bottom: #fff .5px solid;
+    opacity: 1;
+
+}
+
+input[type="file" i]{
+    border-style: none;
+    opacity: 0;
+   
+   
+}
+
+
+.containerSite{
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+}
+
+.aside1{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.aside1 img{
+    width: 100px;
+    height: 100px;
+    border: .5px solid #888c8f;
+    padding: 1em;
+}
+
+.aside1 .titreSite{
+    font-family: "MontserratBold";
+    font-size: 2em;
+    color: 
+    #888c8f;
+
+}
+
+.aside1 .buttonListeOfContacts button{
+   
+    background-color: #ffffff;
+    font-family: "MontserraMediumItalic";
+    color: #888c8f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: .9em;
+    border: .5px solid #888c8f;
+    text-align: center;
+}
+
+.main1{
+    width: 60%;
+    height: 100%;
+    background-image: url("banner.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+form#form{
+    width: 60%;
+    height: 85%;
+    background-color: #ffffff3d;
+    box-shadow: 0 4px 4px #888c8f4d ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.titreAjoutContact{
+    font-family: "MontserraMediumItalic";
+    color: #fefeff;
+}
+
+
+
+.classFormWidthHeight{
+    width: 70%;
+    margin: 1em;
+    padding: .5em;
+}
+
+.imageInput{
+    height: 120px;
+    position: relative;
+}
+
+
+#imageLabel{
+    width: 120px;
+    height: 120px;
+    background-color: #ffffff;
+    z-index: 10000;
+}
+
+#imageLabel img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    border: .5px solid #fff;
+    padding: 1em;
+}
+
+.buttonsForm{
+    margin-top: -1.5em;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.buttonFormIndex{
+    width: 45%;
+    height: 100%;
+    background-color: #fff;
+    border: .5px solid #888c8f;
+    padding: 1em 1.3em;
+    font-family: "MontserraRegular";
+    font-size: .8em;
+    color: #585b5e;
+}
